@@ -38,7 +38,17 @@ content="Before proceeding with plugging everything in, remove the black rubber 
 When plugging in cables in the following steps, ensure that you pass **every cable** through the slot in the bottom of the electronics box. Once everything is connected to the electronics, you will organize all of the cables into the supergland, and then push the supergland back into the slot."
 %}
 
-* Connect the [[vacuum pump cable]] (with gray heat shrink) to the [[Farmduino]] peripheral connector labelled `VACUUM` (the top right connector on Farmduino). The connector will only fit in one direction.
+* Connect the [[vacuum pump cable]] (which should have 3 wires colored clear-silver, white and black) to the [[Farmduino]] peripheral connector labelled `VACUUM` (located at the top right corner of the Farmduino), ensure that the connector's tab lock is aligned with the top of the connector.
+
+{%
+include callout.html
+type="danger"
+title="Double check the wiring"
+content="Please note that this connector has an identical 3 pin connector as the **Farmduino's power input**.  If you incorrectly wire up the vacuum pump, the vacuum pump’s electronics will be permanently damaged as soon as your FarmBot is powered up..
+
+For additional reference, inspect the color of the wires in the connector and confirm they match the [wire-up for the vacuum pump](./tools/_images/wire_up_vacuum_pump_detail.png) found at the other end of the cable. For more information on wiring up the vacuum pump, please refer to the [seeder section](./tools/seeder.md#step-3-wire-up-the-vacuum-pump)."
+%}
+
 * Connect the [[solenoid valve cable]] (with blue heat shrink) to the [[Farmduino]] peripheral connector labelled `WATER` (directly underneath the vacuum connector). The connector will only fit in one direction.
 * Connect the [[LED strip]] to the [[Farmduino]] peripheral connector labelled `LIGHTING` (directly underneath the water connector). The connector will only fit in one direction.
 
